@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.2.0"
-  }
+  },
+  "proxy":"https://aqueous-dawn-89020.herokuapp.com/"
 }
