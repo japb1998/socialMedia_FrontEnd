@@ -10,7 +10,7 @@ import DeleteButton from '../DeleteButton';
 
 export default function SinglePost(props) {
     const postId = props.match.params.postId;
-    console.log(postId);
+    // console.log(postId);
     const{ user} = useContext(AuthContext);
     const commentInputRef = useRef(null)
 const [comment,setComment] = useState('');

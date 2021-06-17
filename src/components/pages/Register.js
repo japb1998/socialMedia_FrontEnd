@@ -15,7 +15,7 @@ const {onChange,onSubmit, values} = useForm(registerUser,{
 });
     const [addUser, { loading}] = useMutation(REGISTER_USER,{
         update(proxy,{data:{register}}){
-            console.log(register)
+            // console.log(register)
             // context.login(userData)
             history.push('/');
         }, 
